@@ -97,11 +97,9 @@ namespace boost {
 
     public:
       //* constructors
-      serializeable_counting_bloom_filter() 
-      {
+      serializeable_counting_bloom_filter() {
 	this->clear();
       }
-
       
       template <typename _T, size_t _Bins, size_t _BitsPerBin,
                 typename _HashFns, typename _Block>
