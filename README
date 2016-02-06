@@ -1,4 +1,7 @@
 Boost Bloom filters that can be serialized using Boost's serialization
 
+NOTE
 
+If you experience linker errors, play around with where '-lboost_serialization' 
+is located in your compiler arguments
 
