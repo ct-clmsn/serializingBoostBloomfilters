@@ -3,8 +3,7 @@
 #include <iostream>
 #include "serializeable_counting_bloom_filter.hpp"
 
-#define NUM_BITS 95851
-#define HLL_BITS 100
+#define NUM_BITS 100 
 
 using namespace std;
 using namespace boost::bloom_filters;
