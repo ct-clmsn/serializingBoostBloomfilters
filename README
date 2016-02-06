@@ -1,4 +1,4 @@
-Boost Bloom filters that can be serialized using Boost's serialization
+Boost Bloom filters with Boost's serialization support
 
 NOTE
 
